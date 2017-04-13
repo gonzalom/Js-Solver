@@ -16,5 +16,5 @@ before_script:
   - npm install
 
 script:
-  - ./node_modules/standard/bin/cmd.js
-  - /node_modules/jasmine/bin/jasmine.js
+  - node_modules/standard/bin/cmd.js
+  - node_modules/jasmine/bin/jasmine.js
