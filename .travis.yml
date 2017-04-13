@@ -9,3 +9,10 @@ node_js:
 # This triggers builds to run on the new TravisCI infrastructure.
 # See: http://docs.travis-ci.com/user/workers/container-based-infrastructure/
 sudo: false
+
+before_script:
+  - npm install
+
+script:
+  - ./node_modules/standard/bin/cmd.js
+  - /node_modules/jasmine/bin/jasmine.js
