@@ -49,7 +49,7 @@ module.exports = class Solver {
    *
    * @param {object} operators
    */
-  constructor (operators = null) {
+  constructor (operators) {
     _operators.set(this, _.isObject(operators) ? operators : Solver.getDefaultOperators())
   }
 
