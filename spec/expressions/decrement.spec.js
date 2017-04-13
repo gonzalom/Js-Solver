@@ -4,6 +4,8 @@
 
 /* eslint-env jasmine */
 
+'use strict'
+
 const expression = require('../../src/expressions/decrement')
 
 describe('decrement function', function () {

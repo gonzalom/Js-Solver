@@ -4,6 +4,8 @@
 
 /* eslint-env jasmine */
 
+'use strict'
+
 const Solver = require('../src/solver')
 const _addition = require('../src/expressions/addition')
 
