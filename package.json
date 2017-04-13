@@ -40,7 +40,8 @@
     "standard": "^10.0.1"
   },
   "scripts": {
-    "test": "./node_modules/standard/bin/cmd.js --verbose | ./node_modules/snazzy/bin/cmd.js && ./node_modules/jasmine/bin/jasmine.js"
+    "test": "./node_modules/standard/bin/cmd.js --verbose | ./node_modules/snazzy/bin/cmd.js && ./node_modules/jasmine/bin/jasmine.js",
+    "compile": "./node_modules/.bin/babel src --out-dir dist --source-maps --presets env"
   },
   "standard": {
     "parser": "babel-eslint",
