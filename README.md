@@ -17,6 +17,52 @@ Then you need to install npm packages:
 npm install
 ```
 
+# Usage
+
+Plus and Times:
+
+```javascript
+const Solver = require('path/to/src/solver')
+
+let solver = new Solver()
+
+console.log(
+  solver.solve({
+    operand1: 3,
+    operator: 'Plus',
+    operand2: 1
+  })
+) // 3 + 1 = 4
+
+console.log(
+  solver.solve({
+    operand1: 6,
+    operator: 'Times',
+    operand2: 2
+  })
+) // 6 * 2 = 12
+```
+
+Recursive:
+
+```javascript
+const Solver = require('path/to/src/solver')
+
+let solver = new Solver()
+
+console.log(
+  solver.solve({
+    operand1: 3,
+    operator: 'Plus',
+    operand2: {
+      operand1: 6,
+      operator: 'Times',
+      operand2: 2
+    }
+  })
+) // 3 + (6 * 2) = 15
+```
+
 ## Issues
 
 Bug reports and feature requests can be submitted on the [Github Issue Tracker](https://github.com/gonzalom/Solver/issues).
