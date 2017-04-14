@@ -1,7 +1,11 @@
-# The Movies Database App
+# Solver
 
 [![Build Status][ico-travis]][link-travis]
 [![Software License][ico-license]](LICENSE.md)
+
+## About
+
+Javascript Object to solve arithmetic expressions.
 
 
 ## Installation
