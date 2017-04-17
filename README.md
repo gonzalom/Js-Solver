@@ -1,4 +1,4 @@
-Solver
+Javascript Solver
 ======
 
 [![Build Status][ico-travis]][link-travis]
