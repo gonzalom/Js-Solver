@@ -3,7 +3,7 @@ Solver
 
 [![Build Status][ico-travis]][link-travis]
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Software License][ico-license]](LICENCE.md)
+[![Software License][ico-license]](LICENSE.md)
 
 # About
 
