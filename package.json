@@ -42,7 +42,7 @@
   "scripts": {
     "standard-dev": "./node_modules/standard/bin/cmd.js --verbose | ./node_modules/snazzy/bin/cmd.js",
     "standard": "./node_modules/standard/bin/cmd.js",
-    "test-jasmine": "./node_modules/jasmine/bin/jasmine.js",
+    "test:jasmine": "./node_modules/jasmine/bin/jasmine.js",
     "test": "npm run standard && npm run test-jasmine",
     "compile-dev": "./node_modules/.bin/babel src --out-dir dist --source-maps --presets env",
     "compile": "./node_modules/.bin/babel src --out-dir dist --presets env"

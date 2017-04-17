@@ -30,7 +30,7 @@ You can write your own tests and add them to the `spec` directory.
 To run the test command:
 
 ```bash
-npm run test-jasmine
+npm run test:jasmine
 ```
 
 Which should give you no failures or errors.
