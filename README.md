@@ -18,10 +18,7 @@ Clone the project with the following command:
 git clone git@github.com:gonzalom/Js-Solver.git
 ```
 
-Then you need to install npm packages:
-```bash
-npm install
-```
+Or you can also [download the source code](https://github.com/gonzalom/Js-Solver/archive/master.zip).
 
 # Usage
 
@@ -80,6 +77,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for information.
 # License
 
 The Laravel Model Base is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+<br />
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 

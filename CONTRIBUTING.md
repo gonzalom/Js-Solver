@@ -5,6 +5,7 @@ Before you contribute code, please make sure it conforms to the PSR-2 coding sta
 
 If you do this, you can run the following commands to check if everything is ready to submit.
 
+<br />
 
 In order to load the dependencies, you should run composer:
 
@@ -12,6 +13,7 @@ In order to load the dependencies, you should run composer:
 npm install
 ```
 
+<br />
 
 This package follows the [JavaScript Standard Style](hhttps://standardjs.com/) coding standard.
 
@@ -23,7 +25,7 @@ npm run standard-dev
 
 Which should give you no output, indicating that there are no coding standard errors.
 
-
+<br />
 
 You can write your own tests and add them to the `spec` directory.
 
@@ -35,6 +37,7 @@ npm run test:jasmine
 
 Which should give you no failures or errors.
 
+<br />
 
 You can build a dev version with (including mapping):
 
@@ -48,5 +51,6 @@ Or the final version with:
 npm run compile
 ```
 
+<br />
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
